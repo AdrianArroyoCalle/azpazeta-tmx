@@ -12,7 +12,7 @@ Window::Window()
     mainLayout->addWidget(glWidget);
     setLayout(mainLayout);
     
-    setWindowTitle(tr("Hello GL"));
+    setWindowTitle(tr("Azpazeta TMX Viewer"));
 }
 
 void Window::keyPressEvent(QKeyEvent *e)
