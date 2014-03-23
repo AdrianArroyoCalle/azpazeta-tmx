@@ -10,3 +10,16 @@ Azpazeta TMX is a tool for see native TMX maps for Azpazeta without opening Azpa
 * QT
 * SDL
 * WinAPI
+
+Azpazeta TMX uses the same implementation of TMX as Azpazeta based on TinyXML.
+
+Building
+========
+
+First you need to configure the backends that you want to build. Something like that for SDL and QT:
+```
+cmake . -DSDL_BACKEND=ON -DQT_BACKEND=ON
+
+make
+```
+
