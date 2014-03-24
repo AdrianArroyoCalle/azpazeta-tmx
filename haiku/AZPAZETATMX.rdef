@@ -1,0 +1,19 @@
+resource app_signature "application/azpazeta-tmx";
+
+resource app_flags B_SINGLE_LAUNCH;
+
+resource app_version {
+	major = 0,
+	middle = 0,
+	minor = 1,
+	
+	variety = B_APPV_DEVELOPMENT,
+	internal = 1,
+	
+	short_info = "Azpazeta TMX Viewer",
+	long_info = "See your maps for Azpazeta with this viewer"	
+};
+resource vector_icon{
+	$"6E63696602030000FF03FFAA00020A043C44344C44544C4C0A043428344B4454"
+	$"4430020A000100000A01010100"
+};
