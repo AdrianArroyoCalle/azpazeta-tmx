@@ -12,6 +12,7 @@ void TMXGL::AttachedToWindow()
 	BGLView::AttachedToWindow();
 	StartGL();
 	RefreshGL();
+	Render();
 	UnlockGL();
 }
 void TMXGL::FrameResized(float width, float height)
